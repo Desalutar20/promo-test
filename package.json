@@ -1,0 +1,29 @@
+{
+	"name": "promos",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start:dev": "tsx --watch --env-file=.env src/server.ts",
+		"build": "tsc --build",
+		"start": "node dist/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"devDependencies": {
+		"@types/node": "^25.5.0",
+		"@types/pg": "^8.20.0",
+		"tsx": "^4.21.0",
+		"typescript": "^6.0.2"
+	},
+	"dependencies": {
+		"close-with-grace": "^2.5.0",
+		"fastify": "^5.8.4",
+		"fastify-graceful-shutdown": "^5.0.0",
+		"fastify-type-provider-zod": "^6.1.0",
+		"pg": "^8.20.0",
+		"zod": "^4.3.6"
+	}
+}

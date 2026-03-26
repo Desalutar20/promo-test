@@ -1,0 +1,9 @@
+.git
+*Dockerfile*
+*docker-compose*
+node_modules
+dist
+*.log
+*.ps1
+*.cmd
+*.sh
